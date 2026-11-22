@@ -1,0 +1,18 @@
+{
+  "id": "Weather_media_janela_L96_H96",
+  "tipo": "baseline",
+  "dataset": "Weather",
+  "modelo": "media_janela",
+  "L": 96,
+  "H": 96,
+  "lr": null,
+  "seed": null,
+  "teste": {
+    "original": {
+      "mse": 0.5593653917312622,
+      "mae": 0.5575470924377441,
+      "mse_sem_suspeitos": 0.5593653917312622,
+      "mae_sem_suspeitos": 0.5575470924377441
+    }
+  }
+}

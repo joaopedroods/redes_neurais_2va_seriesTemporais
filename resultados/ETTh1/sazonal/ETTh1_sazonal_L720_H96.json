@@ -1,0 +1,18 @@
+{
+  "id": "ETTh1_sazonal_L720_H96",
+  "tipo": "baseline",
+  "dataset": "ETTh1",
+  "modelo": "sazonal",
+  "L": 720,
+  "H": 96,
+  "lr": null,
+  "seed": null,
+  "teste": {
+    "original": {
+      "mse": 0.07144515216350555,
+      "mae": 0.21050100028514862,
+      "mse_sem_suspeitos": 0.07036750763654709,
+      "mae_sem_suspeitos": 0.2076370120048523
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "ETTh1_Informer_L96_H96_lr0.0001_s0",
+  "tipo": "rede",
+  "dataset": "ETTh1",
+  "modelo": "Informer",
+  "L": 96,
+  "H": 96,
+  "lr": 0.0001,
+  "seed": 0,
+  "n_parametros": 11302401,
+  "historico": [
+    {
+      "epoca": 1,
+      "mse_treino": 0.19071865491211987,
+      "mse_val": 0.11917001754045486
+    },
+    {
+      "epoca": 2,
+      "mse_treino": 0.1574179316100221,
+      "mse_val": 0.1296471208333969
+    },
+    {
+      "epoca": 3,
+      "mse_treino": 0.12856391066369918,
+      "mse_val": 0.13433970510959625
+    },
+    {
+      "epoca": 4,
+      "mse_treino": 0.1050330417443769,
+      "mse_val": 0.14429141581058502
+    },
+    {
+      "epoca": 5,
+      "mse_treino": 0.08753867910121577,
+      "mse_val": 0.14696276187896729
+    },
+    {
+      "epoca": 6,
+      "mse_treino": 0.07931172878311846,
+      "mse_val": 0.1346537172794342
+    }
+  ],
+  "melhor_epoca": 1,
+  "mse_val": 0.11917001754045486,
+  "epocas_rodadas": 6,
+  "tempo_treino_s": 138.1469283103943,
+  "teste": {
+    "original": {
+      "mse": 0.06229472532868385,
+      "mae": 0.1938239485025406,
+      "mse_sem_suspeitos": 0.06113797053694725,
+      "mae_sem_suspeitos": 0.1910058557987213
+    },
+    "embaralhar_tudo": {
+      "mse": 0.11764370401700337,
+      "mae": 0.29110923409461975,
+      "mse_sem_suspeitos": 0.11359531432390213,
+      "mae_sem_suspeitos": 0.2865111529827118,
+      "mse_std_reps": 0.0006255331686584399,
+      "razao_mse": 1.8885018498160688
+    },
+    "embaralhar_antigo": {
+      "mse": 0.08519486834605534,
+      "mae": 0.2401521454254786,
+      "mse_sem_suspeitos": 0.0833868682384491,
+      "mae_sem_suspeitos": 0.23741527398427328,
+      "mse_std_reps": 0.00032951301612076263,
+      "razao_mse": 1.367609663523583
+    },
+    "embaralhar_recente": {
+      "mse": 0.06432965149482091,
+      "mae": 0.19819702208042145,
+      "mse_sem_suspeitos": 0.06317102412382762,
+      "mae_sem_suspeitos": 0.195505753159523,
+      "mse_std_reps": 0.00019780856515186435,
+      "razao_mse": 1.0326661070483936
+    },
+    "embaralhar_blocos": {
+      "mse": 0.07513632376988728,
+      "mae": 0.21648628016312918,
+      "mse_sem_suspeitos": 0.0744466558098793,
+      "mae_sem_suspeitos": 0.2147044042746226,
+      "mse_std_reps": 0.0005188084226109442,
+      "razao_mse": 1.2061426288252766
+    }
+  },
+  "dispositivo": "cuda",
+  "treino_cfg": {
+    "batch": 64,
+    "max_epocas": 30,
+    "paciencia": 5,
+    "clip_grad": 1.0
+  }
+}

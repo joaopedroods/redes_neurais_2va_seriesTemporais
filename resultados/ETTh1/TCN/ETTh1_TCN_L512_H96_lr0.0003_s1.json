@@ -1,0 +1,99 @@
+{
+  "id": "ETTh1_TCN_L512_H96_lr0.0003_s1",
+  "tipo": "rede",
+  "dataset": "ETTh1",
+  "modelo": "TCN",
+  "L": 512,
+  "H": 96,
+  "lr": 0.0003,
+  "seed": 1,
+  "n_parametros": 192928,
+  "historico": [
+    {
+      "epoca": 1,
+      "mse_treino": 0.18177829069260973,
+      "mse_val": 0.09767983108758926
+    },
+    {
+      "epoca": 2,
+      "mse_treino": 0.15210706845544777,
+      "mse_val": 0.09607229381799698
+    },
+    {
+      "epoca": 3,
+      "mse_treino": 0.14039670623148592,
+      "mse_val": 0.1030300036072731
+    },
+    {
+      "epoca": 4,
+      "mse_treino": 0.12765970446716862,
+      "mse_val": 0.10794132202863693
+    },
+    {
+      "epoca": 5,
+      "mse_treino": 0.1155800064646017,
+      "mse_val": 0.10994421690702438
+    },
+    {
+      "epoca": 6,
+      "mse_treino": 0.10466563241264691,
+      "mse_val": 0.12094360589981079
+    },
+    {
+      "epoca": 7,
+      "mse_treino": 0.09334832101584242,
+      "mse_val": 0.12454213947057724
+    }
+  ],
+  "melhor_epoca": 2,
+  "mse_val": 0.09607229381799698,
+  "epocas_rodadas": 7,
+  "tempo_treino_s": 36.52165174484253,
+  "teste": {
+    "original": {
+      "mse": 0.055438779294490814,
+      "mae": 0.18184606730937958,
+      "mse_sem_suspeitos": 0.05767184495925903,
+      "mae_sem_suspeitos": 0.18680837750434875
+    },
+    "embaralhar_tudo": {
+      "mse": 0.07701035340627034,
+      "mae": 0.21992033223311105,
+      "mse_sem_suspeitos": 0.08025862524906795,
+      "mae_sem_suspeitos": 0.22614719470342,
+      "mse_std_reps": 0.0004808134649814138,
+      "razao_mse": 1.38910622467337
+    },
+    "embaralhar_antigo": {
+      "mse": 0.05210599799950918,
+      "mae": 0.174738218386968,
+      "mse_sem_suspeitos": 0.053590709964434304,
+      "mae_sem_suspeitos": 0.17803217470645905,
+      "mse_std_reps": 8.33740909465606e-05,
+      "razao_mse": 0.9398835736032732
+    },
+    "embaralhar_recente": {
+      "mse": 0.07176662981510162,
+      "mae": 0.21199152866999307,
+      "mse_sem_suspeitos": 0.07455908507108688,
+      "mae_sem_suspeitos": 0.21718711654345194,
+      "mse_std_reps": 8.293711169175956e-05,
+      "razao_mse": 1.2945203831757777
+    },
+    "embaralhar_blocos": {
+      "mse": 0.0812965879837672,
+      "mae": 0.22518188258012137,
+      "mse_sem_suspeitos": 0.08479080597559611,
+      "mae_sem_suspeitos": 0.23147215942541757,
+      "mse_std_reps": 0.0005475797594907931,
+      "razao_mse": 1.4664209605323324
+    }
+  },
+  "dispositivo": "cuda",
+  "treino_cfg": {
+    "batch": 64,
+    "max_epocas": 30,
+    "paciencia": 5,
+    "clip_grad": 1.0
+  }
+}

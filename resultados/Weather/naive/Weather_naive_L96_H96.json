@@ -1,0 +1,18 @@
+{
+  "id": "Weather_naive_L96_H96",
+  "tipo": "baseline",
+  "dataset": "Weather",
+  "modelo": "naive",
+  "L": 96,
+  "H": 96,
+  "lr": null,
+  "seed": null,
+  "teste": {
+    "original": {
+      "mse": 0.555007815361023,
+      "mae": 0.5245767831802368,
+      "mse_sem_suspeitos": 0.555007815361023,
+      "mae_sem_suspeitos": 0.5245767831802368
+    }
+  }
+}

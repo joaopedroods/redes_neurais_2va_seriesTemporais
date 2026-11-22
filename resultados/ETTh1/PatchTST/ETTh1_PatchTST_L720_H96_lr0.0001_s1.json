@@ -1,0 +1,114 @@
+{
+  "id": "ETTh1_PatchTST_L720_H96_lr0.0001_s1",
+  "tipo": "rede",
+  "dataset": "ETTh1",
+  "modelo": "PatchTST",
+  "L": 720,
+  "H": 96,
+  "lr": 0.0001,
+  "seed": 1,
+  "n_parametros": 156224,
+  "historico": [
+    {
+      "epoca": 1,
+      "mse_treino": 0.205806983688388,
+      "mse_val": 0.10515592992305756
+    },
+    {
+      "epoca": 2,
+      "mse_treino": 0.16122788834114807,
+      "mse_val": 0.09676805883646011
+    },
+    {
+      "epoca": 3,
+      "mse_treino": 0.14952806748902073,
+      "mse_val": 0.09507239609956741
+    },
+    {
+      "epoca": 4,
+      "mse_treino": 0.14305508827249083,
+      "mse_val": 0.09430929273366928
+    },
+    {
+      "epoca": 5,
+      "mse_treino": 0.13879928860515833,
+      "mse_val": 0.09226100891828537
+    },
+    {
+      "epoca": 6,
+      "mse_treino": 0.13455346816264022,
+      "mse_val": 0.09466162323951721
+    },
+    {
+      "epoca": 7,
+      "mse_treino": 0.13172365338467182,
+      "mse_val": 0.09461692720651627
+    },
+    {
+      "epoca": 8,
+      "mse_treino": 0.12985099201194775,
+      "mse_val": 0.09456398338079453
+    },
+    {
+      "epoca": 9,
+      "mse_treino": 0.12817223563552282,
+      "mse_val": 0.096225306391716
+    },
+    {
+      "epoca": 10,
+      "mse_treino": 0.1266678840721758,
+      "mse_val": 0.09638223797082901
+    }
+  ],
+  "melhor_epoca": 5,
+  "mse_val": 0.09226100891828537,
+  "epocas_rodadas": 10,
+  "tempo_treino_s": 17.89002275466919,
+  "teste": {
+    "original": {
+      "mse": 0.05695130303502083,
+      "mae": 0.18689215183258057,
+      "mse_sem_suspeitos": 0.05898544564843178,
+      "mae_sem_suspeitos": 0.19161228835582733
+    },
+    "embaralhar_tudo": {
+      "mse": 0.07803343484799068,
+      "mae": 0.21885357797145844,
+      "mse_sem_suspeitos": 0.08216345558563869,
+      "mae_sem_suspeitos": 0.22633219758669534,
+      "mse_std_reps": 0.000354217150253066,
+      "razao_mse": 1.3701782169936638
+    },
+    "embaralhar_antigo": {
+      "mse": 0.055097526560227074,
+      "mae": 0.1800694465637207,
+      "mse_sem_suspeitos": 0.05676154295603434,
+      "mae_sem_suspeitos": 0.18330450356006622,
+      "mse_std_reps": 0.00011618998336732822,
+      "razao_mse": 0.9674497970019436
+    },
+    "embaralhar_recente": {
+      "mse": 0.07229342808326085,
+      "mae": 0.2131403684616089,
+      "mse_sem_suspeitos": 0.07567439476648967,
+      "mae_sem_suspeitos": 0.21962442000706991,
+      "mse_std_reps": 0.0003724473168407735,
+      "razao_mse": 1.2693902374596373
+    },
+    "embaralhar_blocos": {
+      "mse": 0.08836186180512111,
+      "mae": 0.23345829049746195,
+      "mse_sem_suspeitos": 0.09276163826386134,
+      "mae_sem_suspeitos": 0.2407397230466207,
+      "mse_std_reps": 0.0004580346746499357,
+      "razao_mse": 1.551533627786973
+    }
+  },
+  "dispositivo": "cuda",
+  "treino_cfg": {
+    "batch": 64,
+    "max_epocas": 30,
+    "paciencia": 5,
+    "clip_grad": 1.0
+  }
+}

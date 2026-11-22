@@ -1,0 +1,129 @@
+{
+  "id": "Weather_DLinear_L336_H96_lr0.0003_s0",
+  "tipo": "rede",
+  "dataset": "Weather",
+  "modelo": "DLinear",
+  "L": 336,
+  "H": 96,
+  "lr": 0.0003,
+  "seed": 0,
+  "n_parametros": 64704,
+  "historico": [
+    {
+      "epoca": 1,
+      "mse_treino": 0.4057333491795369,
+      "mse_val": 0.5458709001541138
+    },
+    {
+      "epoca": 2,
+      "mse_treino": 0.3794638156213563,
+      "mse_val": 0.5387109518051147
+    },
+    {
+      "epoca": 3,
+      "mse_treino": 0.37703922927277844,
+      "mse_val": 0.5331185460090637
+    },
+    {
+      "epoca": 4,
+      "mse_treino": 0.3765310884479605,
+      "mse_val": 0.5393992066383362
+    },
+    {
+      "epoca": 5,
+      "mse_treino": 0.37673917655737427,
+      "mse_val": 0.545240581035614
+    },
+    {
+      "epoca": 6,
+      "mse_treino": 0.3767613783666831,
+      "mse_val": 0.5364121198654175
+    },
+    {
+      "epoca": 7,
+      "mse_treino": 0.37632775153556974,
+      "mse_val": 0.5348317623138428
+    },
+    {
+      "epoca": 8,
+      "mse_treino": 0.3766300521997218,
+      "mse_val": 0.5296857357025146
+    },
+    {
+      "epoca": 9,
+      "mse_treino": 0.37611510920939656,
+      "mse_val": 0.533307671546936
+    },
+    {
+      "epoca": 10,
+      "mse_treino": 0.37637712920508487,
+      "mse_val": 0.5353913903236389
+    },
+    {
+      "epoca": 11,
+      "mse_treino": 0.3768131194940732,
+      "mse_val": 0.5336599946022034
+    },
+    {
+      "epoca": 12,
+      "mse_treino": 0.3761473417452265,
+      "mse_val": 0.5371516346931458
+    },
+    {
+      "epoca": 13,
+      "mse_treino": 0.3758587371212312,
+      "mse_val": 0.5316813588142395
+    }
+  ],
+  "melhor_epoca": 8,
+  "mse_val": 0.5296857357025146,
+  "epocas_rodadas": 13,
+  "tempo_treino_s": 53.37788915634155,
+  "teste": {
+    "original": {
+      "mse": 0.3988831043243408,
+      "mae": 0.4399191439151764,
+      "mse_sem_suspeitos": 0.3988831043243408,
+      "mae_sem_suspeitos": 0.4399191439151764
+    },
+    "embaralhar_tudo": {
+      "mse": 0.605078399181366,
+      "mae": 0.5781945387522379,
+      "mse_sem_suspeitos": 0.605078399181366,
+      "mae_sem_suspeitos": 0.5781945387522379,
+      "mse_std_reps": 0.0017146648751897352,
+      "razao_mse": 1.5169316339088734
+    },
+    "embaralhar_antigo": {
+      "mse": 0.4352673490842183,
+      "mae": 0.46955018242200214,
+      "mse_sem_suspeitos": 0.4352673490842183,
+      "mae_sem_suspeitos": 0.46955018242200214,
+      "mse_std_reps": 0.0005725460475851907,
+      "razao_mse": 1.0912153068541421
+    },
+    "embaralhar_recente": {
+      "mse": 0.4993879199028015,
+      "mae": 0.5125154852867126,
+      "mse_sem_suspeitos": 0.4993879199028015,
+      "mae_sem_suspeitos": 0.5125154852867126,
+      "mse_std_reps": 0.0026601781701608438,
+      "razao_mse": 1.2519655871328608
+    },
+    "embaralhar_blocos": {
+      "mse": 0.6535166700681051,
+      "mae": 0.6013757189114889,
+      "mse_sem_suspeitos": 0.6535166700681051,
+      "mae_sem_suspeitos": 0.6013757189114889,
+      "mse_std_reps": 0.00040266317745600957,
+      "razao_mse": 1.638366385999433
+    }
+  },
+  "dispositivo": "cpu",
+  "treino_cfg": {
+    "batch": 64,
+    "max_epocas": 30,
+    "paciencia": 5,
+    "clip_grad": 1.0
+  }
+}

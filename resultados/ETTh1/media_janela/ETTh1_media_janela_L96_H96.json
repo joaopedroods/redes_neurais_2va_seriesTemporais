@@ -1,0 +1,18 @@
+{
+  "id": "ETTh1_media_janela_L96_H96",
+  "tipo": "baseline",
+  "dataset": "ETTh1",
+  "modelo": "media_janela",
+  "L": 96,
+  "H": 96,
+  "lr": null,
+  "seed": null,
+  "teste": {
+    "original": {
+      "mse": 0.06669878214597702,
+      "mae": 0.19847188889980316,
+      "mse_sem_suspeitos": 0.0659121721982956,
+      "mae_sem_suspeitos": 0.19597066938877106
+    }
+  }
+}

@@ -1,0 +1,9 @@
+# pesos treinados: grandes demais para o GitHub
+checkpoints/
+# bases: o notebook 01 baixa das fontes originais
+data/
+# arquivos temporários
+*.tmp
+__pycache__/
+.ipynb_checkpoints/
+desktop.ini

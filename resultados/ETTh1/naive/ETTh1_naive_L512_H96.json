@@ -1,0 +1,18 @@
+{
+  "id": "ETTh1_naive_L512_H96",
+  "tipo": "baseline",
+  "dataset": "ETTh1",
+  "modelo": "naive",
+  "L": 512,
+  "H": 96,
+  "lr": null,
+  "seed": null,
+  "teste": {
+    "original": {
+      "mse": 0.06925613433122635,
+      "mae": 0.2032710462808609,
+      "mse_sem_suspeitos": 0.0677904486656189,
+      "mae_sem_suspeitos": 0.20058801770210266
+    }
+  }
+}

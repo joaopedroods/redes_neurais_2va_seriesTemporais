@@ -1,0 +1,94 @@
+{
+  "id": "ETTh1_DLinear_L720_H96_lr0.001_s0",
+  "tipo": "rede",
+  "dataset": "ETTh1",
+  "modelo": "DLinear",
+  "L": 720,
+  "H": 96,
+  "lr": 0.001,
+  "seed": 0,
+  "n_parametros": 138432,
+  "historico": [
+    {
+      "epoca": 1,
+      "mse_treino": 0.15316739591165854,
+      "mse_val": 0.09384673088788986
+    },
+    {
+      "epoca": 2,
+      "mse_treino": 0.14263258115932964,
+      "mse_val": 0.09777114540338516
+    },
+    {
+      "epoca": 3,
+      "mse_treino": 0.14245838166044925,
+      "mse_val": 0.0975722223520279
+    },
+    {
+      "epoca": 4,
+      "mse_treino": 0.1416535550946245,
+      "mse_val": 0.09468443691730499
+    },
+    {
+      "epoca": 5,
+      "mse_treino": 0.1412350398892412,
+      "mse_val": 0.09512520581483841
+    },
+    {
+      "epoca": 6,
+      "mse_treino": 0.14086622037445776,
+      "mse_val": 0.09533495455980301
+    }
+  ],
+  "melhor_epoca": 1,
+  "mse_val": 0.09384673088788986,
+  "epocas_rodadas": 6,
+  "tempo_treino_s": 11.160785436630249,
+  "teste": {
+    "original": {
+      "mse": 0.06258358806371689,
+      "mae": 0.19468846917152405,
+      "mse_sem_suspeitos": 0.06495126336812973,
+      "mae_sem_suspeitos": 0.1991008222103119
+    },
+    "embaralhar_tudo": {
+      "mse": 0.0757520819703738,
+      "mae": 0.21469478805859885,
+      "mse_sem_suspeitos": 0.08014856527249019,
+      "mae_sem_suspeitos": 0.22272493441899618,
+      "mse_std_reps": 0.0003843281566541917,
+      "razao_mse": 1.2104144922667257
+    },
+    "embaralhar_antigo": {
+      "mse": 0.05343951160709063,
+      "mae": 0.17726843555768332,
+      "mse_sem_suspeitos": 0.05490988368789355,
+      "mae_sem_suspeitos": 0.17992385228474936,
+      "mse_std_reps": 9.133208226421376e-05,
+      "razao_mse": 0.8538901852780222
+    },
+    "embaralhar_recente": {
+      "mse": 0.07677782823642094,
+      "mae": 0.21778284013271332,
+      "mse_sem_suspeitos": 0.080514262119929,
+      "mae_sem_suspeitos": 0.2238922913869222,
+      "mse_std_reps": 0.00027544314262947165,
+      "razao_mse": 1.2268045123627744
+    },
+    "embaralhar_blocos": {
+      "mse": 0.08891914288202922,
+      "mae": 0.23403340578079224,
+      "mse_sem_suspeitos": 0.09331866105397542,
+      "mae_sem_suspeitos": 0.2412714809179306,
+      "mse_std_reps": 0.0007602665654646456,
+      "razao_mse": 1.4208060872364792
+    }
+  },
+  "dispositivo": "cpu",
+  "treino_cfg": {
+    "batch": 64,
+    "max_epocas": 30,
+    "paciencia": 5,
+    "clip_grad": 1.0
+  }
+}
